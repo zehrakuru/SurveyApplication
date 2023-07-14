@@ -6,82 +6,93 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/beige"
-    tools:context=".PersonalInformation">
+    tools:context=".CustomInfos">
 
     <TextView
         android:id="@+id/receivedNameId"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="44dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:textSize="40sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tv_hobbies"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/round_border"
-        android:drawableStart="@drawable/baseline_email_24"
-        android:drawablePadding="14dp"
-        android:padding="10dp"
-        android:textSize="22sp"
-        android:inputType="textEmailAddress"
-        android:hint="@string/email"/>
+        android:textSize="20sp"
+        android:text="@string/first_question"/>
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/editTextHobbies"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:background="@drawable/round_border"
-        android:drawableStart="@drawable/baseline_local_phone_24"
         android:drawablePadding="14dp"
         android:padding="10dp"
-        android:textSize="22sp"
-        android:inputType="phone"
-        android:hint="@string/phone"/>
-
-    <EditText
-        android:id="@+id/editTextAge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/round_border"
-        android:drawableStart="@drawable/baseline_cake_24"
-        android:drawablePadding="14dp"
-        android:padding="10dp"
-        android:textSize="22sp"
-        android:inputType="number"
-        android:hint="@string/age"/>
-
-    <EditText
-        android:id="@+id/editTextCity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/round_border"
-        android:drawableStart="@drawable/baseline_city_24"
-        android:drawablePadding="14dp"
-        android:padding="10dp"
-        android:textSize="22sp"
+        android:textSize="20sp"
         android:inputType="text"
-        android:hint="@string/city"/>
+        android:hint="@string/first_hint_answer"/>
+
+    <TextView
+        android:id="@+id/tv_lastbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/second_question"/>
+
+    <EditText
+        android:id="@+id/editTextLastBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="14dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint="@string/second_hint_answer"/>
+
+    <TextView
+        android:id="@+id/tv_finalAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/third_question"/>
+
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="14dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint="@string/third_hint_answer"/>
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnSaveAndNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="16dp"
         android:background="@drawable/round_border"
         android:backgroundTint="@color/purple_500"
         android:padding="14dp"
-        android:text="@string/btn_next" />
+        android:text="@string/btn_next_save" />
 
 </LinearLayout>

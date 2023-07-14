@@ -10,7 +10,6 @@
     android:background="@color/beige"
     tools:context=".MainActivity" >
 
-
     <EditText
         android:id="@+id/editTextNameSurname"
         android:layout_width="match_parent"

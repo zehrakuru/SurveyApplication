@@ -2,4 +2,16 @@
     <string name="app_name">SurveyApplication</string>
     <string name="name_surname">Name Surname</string>
     <string name="button_go_to_survey">Go to Survey</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="age">Age</string>
+    <string name="city">City</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_next_save">Save and Next</string>
+    <string name="first_question">Please tell us about your hobbies: </string>
+    <string name="second_question">Please enter the last book you read: </string>
+    <string name="third_question">What do you think about the effects of artificial intelligence (AI), please enter your answer: </string>
+    <string name="first_hint_answer">Enter your hobbies here</string>
+    <string name="second_hint_answer">Enter the book name here</string>
+    <string name="third_hint_answer">Enter your answer here</string>
 </resources>
