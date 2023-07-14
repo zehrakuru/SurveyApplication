@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SurveyApplication</string>
+    <string name="name_surname">Name Surname</string>
+    <string name="button_go_to_survey">Go to Survey</string>
+</resources>
